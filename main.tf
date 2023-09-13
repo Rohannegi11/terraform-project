@@ -15,7 +15,7 @@ sudo -i
 yum install httpd -y
 systemctl start httpd
 chkconfig httpd on
-echo "hai all this is my app created by terraform infrastructurte by rohan server-1" > /var/www/html/index.html
+echo "hai all this is my app created by terraform infrastructurte by rohan sir server-1" > /var/www/html/index.html
 EOF
   tags = {
     Name = "web-server-1"
